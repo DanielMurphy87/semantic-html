@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A news article page with semantic HTML.">
         <link rel="stylesheet" href="./css/styles.css">
         <title>Accessibility &amp; Semantic HTML - Assignment - User
             Requirements - Newspaper Article</title>
@@ -55,7 +56,10 @@
                 <h3>Handy tips on how to create accessible websites for everyone</h3>
                 <p>By <a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a> -
                     04.08.21</p>
-                <img src="./images/ArticleImage.png" alt="Generic article image" class="responsive">
+                    <picture>
+                        <source type="image/webp" srcset="./images/ArticleImage.webp" />
+                        <img src="./images/ArticleImage.png" alt="Generic article image" class="responsive">
+                    </picture>
                 <section>
                     <h4>Introduction</h4>
                     <p>Tim Berners Lee dreamt of a World Wide Web that would be

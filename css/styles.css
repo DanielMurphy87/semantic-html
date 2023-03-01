@@ -65,7 +65,7 @@ footer {
 footer ul li {
     display: inline-block;
     margin-right: 10px;
-    color: #ce93d8;
+    color: rgb(240, 219, 240);
 }
 
 footer p {
@@ -82,11 +82,16 @@ footer p {
     display: block;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 body {
     background-color: rgb(253, 230, 253);
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
+img.responsive {
+    width: 655px;
+    height: 438px;
 }
